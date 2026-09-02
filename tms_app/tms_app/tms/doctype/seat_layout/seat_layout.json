@@ -1,0 +1,39 @@
+{
+   "actions": [],
+   "allow_rename": 1,
+   "autoname": "field:layout_name",
+   "creation": "2026-02-09 00:00:00.000000",
+   "doctype": "DocType",
+   "engine": "InnoDB",
+   "field_order": [
+       "layout_name",
+       "vehicle_type",
+       "total_seats",
+       "column_break_1",
+       "rows",
+       "columns",
+       "layout_notes"
+   ],
+   "fields": [
+       {"fieldname": "layout_name", "fieldtype": "Data", "label": "Layout Name", "reqd": 1, "unique": 1, "in_list_view": 1},
+       {"fieldname": "vehicle_type", "fieldtype": "Select", "options": "Standard\nDeluxe\nSleeper\nLuxury", "label": "Vehicle Type", "in_list_view": 1},
+       {"fieldname": "total_seats", "fieldtype": "Int", "label": "Total Seats", "reqd": 1, "in_list_view": 1},
+       {"fieldname": "column_break_1", "fieldtype": "Column Break"},
+       {"fieldname": "rows", "fieldtype": "Int", "label": "Rows"},
+       {"fieldname": "columns", "fieldtype": "Int", "label": "Columns"},
+       {"fieldname": "layout_notes", "fieldtype": "Small Text", "label": "Layout Notes"}
+   ],
+   "index_web_pages_for_search": 1,
+   "links": [],
+   "modified": "2026-02-09 00:00:00.000000",
+   "modified_by": "Administrator",
+   "module": "TMS",
+   "name": "Seat Layout",
+   "owner": "Administrator",
+   "permissions": [
+       {"create": 1, "delete": 1, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "role": "System Manager", "share": 1, "write": 1}
+   ],
+   "sort_field": "modified",
+   "sort_order": "DESC",
+   "track_changes": 1
+}
