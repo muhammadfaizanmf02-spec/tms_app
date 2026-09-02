@@ -1,0 +1,5 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+recursive-include tms_app *.json *.md *.py *.txt *.html *.js *.css *.csv
+recursive-exclude tms_app *.pyc
