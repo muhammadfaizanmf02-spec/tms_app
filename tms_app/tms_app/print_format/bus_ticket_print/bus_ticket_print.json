@@ -1,0 +1,20 @@
+{
+    "doctype": "Print Format",
+    "name": "Bus Ticket Print",
+    "doc_type": "Bus Ticket Booking",
+    "module": "TMS",
+    "standard": "Yes",
+    "print_format_type": "Jinja",
+    "disabled": 0,
+    "align_labels_right": 0,
+    "font_size": 12,
+    "margin_top": 10,
+    "margin_bottom": 10,
+    "margin_left": 10,
+    "margin_right": 10,
+    "creation": "2026-02-09 00:00:00.000000",
+    "modified": "2026-02-09 00:00:00.000000",
+    "modified_by": "Administrator",
+    "owner": "Administrator",
+    "html": "<div style=\"padding: 20px; font-family: Arial, sans-serif;\"><h2 style=\"text-align:center;\">Bus Ticket</h2><table style=\"width:100%; border-collapse: collapse;\"><tr><td><b>Ticket No:</b></td><td>{{ doc.name }}</td></tr><tr><td><b>Customer Name:</b></td><td>{{ doc.customer_name }}</td></tr><tr><td><b>Contact:</b></td><td>{{ doc.customer_contact }}</td></tr><tr><td><b>Trip:</b></td><td>{{ doc.trip }}</td></tr><tr><td><b>Seat Number:</b></td><td>{{ doc.seat_number }}</td></tr><tr><td><b>Booking Date:</b></td><td>{{ doc.booking_date }}</td></tr><tr><td><b>Fare Amount:</b></td><td>{{ doc.fare_amount }}</td></tr><tr><td><b>Discount:</b></td><td>{{ doc.discount_amount }}</td></tr><tr><td><b>Paid Amount:</b></td><td>{{ doc.paid_amount }}</td></tr><tr><td><b>Payment Mode:</b></td><td>{{ doc.payment_mode }}</td></tr><tr><td><b>Status:</b></td><td>{{ doc.status }}</td></tr></table></div>"
+}
