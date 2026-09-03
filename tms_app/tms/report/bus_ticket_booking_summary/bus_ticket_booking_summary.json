@@ -1,0 +1,18 @@
+{
+    "doctype": "Report",
+    "name": "Bus Ticket Booking Summary",
+    "report_name": "Bus Ticket Booking Summary",
+    "ref_doctype": "Bus Ticket Booking",
+    "report_type": "Query Report",
+    "module": "TMS",
+    "is_standard": "Yes",
+    "disabled": 0,
+    "query": "SELECT trip as 'Trip:Link/Bus Trip:150', customer_name as 'Customer:Data:180', seat_number as 'Seat:Data:100', booking_date as 'Booking Date:Date:120', fare_amount as 'Fare:Currency:120', discount_amount as 'Discount:Currency:120', paid_amount as 'Paid:Currency:120', payment_mode as 'Payment Mode:Data:120', status as 'Status:Data:100' FROM `tabBus Ticket Booking` ORDER BY booking_date DESC",
+    "creation": "2026-02-09 00:00:00.000000",
+    "modified": "2026-02-09 00:00:00.000000",
+    "modified_by": "Administrator",
+    "owner": "Administrator",
+    "roles": [
+          {"role": "System Manager"}
+    ]
+}
