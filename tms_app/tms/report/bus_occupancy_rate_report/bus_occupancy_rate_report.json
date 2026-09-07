@@ -1,0 +1,17 @@
+{
+    "doctype": "Report",
+    "name": "Bus Occupancy Rate Report",
+    "report_name": "Bus Occupancy Rate Report",
+    "ref_doctype": "Bus Trip",
+    "report_type": "Script Report",
+    "module": "TMS",
+    "is_standard": "Yes",
+    "disabled": 0,
+    "creation": "2026-09-07 00:00:00.000000",
+    "modified": "2026-09-07 00:00:00.000000",
+    "modified_by": "Administrator",
+    "owner": "Administrator",
+    "roles": [
+          {"role": "System Manager"}
+    ]
+}
