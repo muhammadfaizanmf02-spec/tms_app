@@ -58,9 +58,13 @@ Install it on a site:
 
 bench --site your-site-name install-app tms_app
 
+## What's implemented
+
+See FLOW_DOCUMENT.md for the full functional writeup. In short: 11 DocTypes (Bus Station, Bus Route + Route Stop child table, Bus Vehicle, Seat Layout, Bus Trip, Bus Ticket Booking, Cargo Booking, Bus Live Tracking, Fuel Log, Vehicle Maintenance Log), a TMS Workspace with a dashboard (number cards + charts) and links out to Assets/Accounts/Buying/HR, 4 Reports, and 2 Print Formats. Bus Ticket Booking and Cargo Booking auto-create Sales Invoices on submit; Bus Vehicle can create a linked Asset; Fuel Log/Vehicle Maintenance Log can auto-create Purchase Invoices when a Supplier is set.
+
 ## Documentation
 
-See FUNCTIONAL_DOC.md and TECHNICAL_DOC.md (to be added) for detailed workflow, user roles, and architecture documentation.
+See FLOW_DOCUMENT.md for detailed workflow, module mapping, and architecture documentation.
 
 ## License
 
