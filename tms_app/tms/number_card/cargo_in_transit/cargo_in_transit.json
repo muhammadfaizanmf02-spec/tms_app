@@ -1,0 +1,17 @@
+{
+    "doctype": "Number Card",
+    "name": "Cargo In Transit",
+    "label": "Cargo In Transit",
+    "document_type": "Cargo Booking",
+    "type": "Document Type",
+    "function": "Count",
+    "filters_json": "[[\"Cargo Booking\",\"status\",\"=\",\"In Transit\"]]",
+    "is_public": 1,
+    "module": "TMS",
+    "color": "#ff8b00",
+    "show_percentage_stats": 0,
+    "creation": "2026-09-07 00:00:00.000000",
+    "modified": "2026-09-07 00:00:00.000000",
+    "modified_by": "Administrator",
+    "owner": "Administrator"
+}

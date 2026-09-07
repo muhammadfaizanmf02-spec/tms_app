@@ -1,0 +1,18 @@
+{
+    "doctype": "Report",
+    "name": "Cargo Manifest Report",
+    "report_name": "Cargo Manifest Report",
+    "ref_doctype": "Cargo Booking",
+    "report_type": "Query Report",
+    "module": "TMS",
+    "is_standard": "Yes",
+    "disabled": 0,
+    "query": "SELECT name as 'Cargo ID:Link/Cargo Booking:120', trip as 'Trip:Link/Bus Trip:120', sender_name as 'Sender:Data:150', sender_contact as 'Sender Contact:Data:120', receiver_name as 'Receiver:Data:150', receiver_contact as 'Receiver Contact:Data:120', source_station as 'From:Link/Bus Station:120', destination_station as 'To:Link/Bus Station:120', item_description as 'Item:Data:200', weight_kg as 'Weight (KG):Float:100', cargo_charges as 'Charges:Currency:110', booking_date as 'Booking Date:Date:110', status as 'Status:Data:100', sales_invoice as 'Sales Invoice:Link/Sales Invoice:120' FROM `tabCargo Booking` ORDER BY booking_date DESC",
+    "creation": "2026-09-07 00:00:00.000000",
+    "modified": "2026-09-07 00:00:00.000000",
+    "modified_by": "Administrator",
+    "owner": "Administrator",
+    "roles": [
+          {"role": "System Manager"}
+    ]
+}

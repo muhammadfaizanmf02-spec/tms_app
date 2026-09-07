@@ -12,7 +12,14 @@
        "column_break_1",
        "driver_name",
        "driver_contact",
-       "status"
+       "status",
+       "section_break_asset",
+       "vehicle_model",
+       "fuel_type",
+       "column_break_asset2",
+       "purchase_date",
+       "purchase_value",
+       "asset"
    ],
    "fields": [
        {"fieldname": "vehicle_number", "fieldtype": "Data", "label": "Vehicle Number", "reqd": 1, "unique": 1, "in_list_view": 1},
@@ -21,7 +28,14 @@
        {"fieldname": "column_break_1", "fieldtype": "Column Break"},
        {"fieldname": "driver_name", "fieldtype": "Data", "label": "Driver Name"},
        {"fieldname": "driver_contact", "fieldtype": "Data", "label": "Driver Contact"},
-       {"fieldname": "status", "fieldtype": "Select", "options": "Active\nUnder Maintenance\nInactive", "default": "Active", "label": "Status", "in_list_view": 1}
+       {"fieldname": "status", "fieldtype": "Select", "options": "Active\nUnder Maintenance\nInactive", "default": "Active", "label": "Status", "in_list_view": 1},
+       {"fieldname": "section_break_asset", "fieldtype": "Section Break", "label": "Fleet / Asset"},
+       {"fieldname": "vehicle_model", "fieldtype": "Data", "label": "Vehicle Model"},
+       {"fieldname": "fuel_type", "fieldtype": "Select", "options": "Diesel\nPetrol\nCNG\nElectric", "label": "Fuel Type"},
+       {"fieldname": "column_break_asset2", "fieldtype": "Column Break"},
+       {"fieldname": "purchase_date", "fieldtype": "Date", "label": "Purchase Date"},
+       {"fieldname": "purchase_value", "fieldtype": "Currency", "label": "Purchase Value"},
+       {"fieldname": "asset", "fieldtype": "Link", "options": "Asset", "label": "Linked Asset", "read_only": 1, "description": "Set automatically by the \"Create Asset\" button - links this vehicle to the Assets module for depreciation/maintenance tracking."}
    ],
    "index_web_pages_for_search": 1,
    "links": [],

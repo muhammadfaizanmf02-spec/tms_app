@@ -1,0 +1,21 @@
+{
+    "doctype": "Dashboard",
+    "name": "TMS Dashboard",
+    "dashboard_name": "TMS Dashboard",
+    "module": "TMS",
+    "is_standard": 1,
+    "charts": [
+          {"chart": "Ticket Bookings Trend", "width": "Full"},
+          {"chart": "Fleet Status Split", "width": "Half"}
+    ],
+    "cards": [
+          {"card": "Active Fleet"},
+          {"card": "Scheduled Trips"},
+          {"card": "Cargo In Transit"},
+          {"card": "Total Ticket Revenue"}
+    ],
+    "creation": "2026-09-07 00:00:00.000000",
+    "modified": "2026-09-07 00:00:00.000000",
+    "modified_by": "Administrator",
+    "owner": "Administrator"
+}
