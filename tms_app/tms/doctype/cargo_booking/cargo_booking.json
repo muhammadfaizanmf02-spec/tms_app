@@ -20,7 +20,8 @@
           "cargo_charges",
           "booking_date",
           "status",
-          "sales_order"
+          "sales_order",
+          "sales_invoice"
     ],
     "fields": [
           {"fieldname": "sender_name", "fieldtype": "Data", "label": "Sender Name", "reqd": 1, "in_list_view": 1},
@@ -37,9 +38,11 @@
           {"fieldname": "cargo_charges", "fieldtype": "Currency", "label": "Cargo Charges", "in_list_view": 1},
           {"fieldname": "booking_date", "fieldtype": "Date", "label": "Booking Date", "default": "Today"},
           {"fieldname": "status", "fieldtype": "Select", "options": "Booked\nIn Transit\nDelivered\nCancelled", "default": "Booked", "label": "Status", "in_list_view": 1},
-          {"fieldname": "sales_order", "fieldtype": "Link", "options": "Sales Order", "label": "Sales Order", "read_only": 1}
+          {"fieldname": "sales_order", "fieldtype": "Link", "options": "Sales Order", "label": "Sales Order", "read_only": 1},
+          {"fieldname": "sales_invoice", "fieldtype": "Link", "options": "Sales Invoice", "label": "Sales Invoice", "read_only": 1, "description": "Auto-created on submit (Accounts integration)."}
     ],
     "index_web_pages_for_search": 1,
+    "is_submittable": 1,
     "links": [],
     "modified": "2026-02-09 00:00:00.000000",
     "modified_by": "Administrator",
@@ -47,7 +50,7 @@
     "name": "Cargo Booking",
     "owner": "Administrator",
     "permissions": [
-          {"create": 1, "delete": 1, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "role": "System Manager", "share": 1, "write": 1}
+          {"amend": 1, "cancel": 1, "create": 1, "delete": 1, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "role": "System Manager", "share": 1, "submit": 1, "write": 1}
     ],
     "sort_field": "modified",
     "sort_order": "DESC",
