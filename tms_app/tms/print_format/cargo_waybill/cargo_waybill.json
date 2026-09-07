@@ -1,0 +1,20 @@
+{
+    "doctype": "Print Format",
+    "name": "Cargo Waybill",
+    "doc_type": "Cargo Booking",
+    "module": "TMS",
+    "standard": "Yes",
+    "print_format_type": "Jinja",
+    "disabled": 0,
+    "align_labels_right": 0,
+    "font_size": 12,
+    "margin_top": 10,
+    "margin_bottom": 10,
+    "margin_left": 10,
+    "margin_right": 10,
+    "creation": "2026-09-07 00:00:00.000000",
+    "modified": "2026-09-07 00:00:00.000000",
+    "modified_by": "Administrator",
+    "owner": "Administrator",
+    "html": "<div style=\"padding: 20px; font-family: Arial, sans-serif;\"><h2 style=\"text-align:center;\">Cargo Waybill / Receipt</h2><table style=\"width:100%; border-collapse: collapse;\"><tr><td><b>Tracking ID:</b></td><td>{{ doc.name }}</td><td><b>Booking Date:</b></td><td>{{ doc.booking_date }}</td></tr><tr><td colspan=\"4\"><hr></td></tr><tr><td><b>Sender:</b></td><td>{{ doc.sender_name }}</td><td><b>Sender Contact:</b></td><td>{{ doc.sender_contact }}</td></tr><tr><td><b>Receiver:</b></td><td>{{ doc.receiver_name }}</td><td><b>Receiver Contact:</b></td><td>{{ doc.receiver_contact }}</td></tr><tr><td colspan=\"4\"><hr></td></tr><tr><td><b>From:</b></td><td>{{ doc.source_station }}</td><td><b>To:</b></td><td>{{ doc.destination_station }}</td></tr><tr><td><b>Trip:</b></td><td>{{ doc.trip or '-' }}</td><td><b>Status:</b></td><td>{{ doc.status }}</td></tr><tr><td colspan=\"4\"><hr></td></tr><tr><td><b>Item Description:</b></td><td colspan=\"3\">{{ doc.item_description or '-' }}</td></tr><tr><td><b>Weight (KG):</b></td><td>{{ doc.weight_kg or 0 }}</td><td><b>Cargo Charges:</b></td><td>{{ doc.cargo_charges }}</td></tr></table><p style=\"margin-top:30px; font-size:11px; text-align:center;\">Please retain this waybill until the parcel is delivered.</p></div>"
+}
