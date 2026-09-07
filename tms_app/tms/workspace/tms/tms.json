@@ -1,0 +1,74 @@
+{
+    "charts": [
+          {"chart_name": "Ticket Bookings Trend"},
+          {"chart_name": "Fleet Status Split"}
+    ],
+    "content": "[{\"id\":\"hdr1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>TMS - Transport Management System</b></span>\",\"col\":12}},{\"id\":\"para1\",\"type\":\"paragraph\",\"data\":{\"text\":\"Bus ticketing, cargo booking, fleet, fuel/maintenance and live tracking - plus quick links out to Accounts, Assets, Buying and HR for anything that isn't a TMS doctype.\",\"col\":12}},{\"id\":\"sc1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bus Ticket Booking\",\"col\":3}},{\"id\":\"sc2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Cargo Booking\",\"col\":3}},{\"id\":\"sc3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bus Trip\",\"col\":3}},{\"id\":\"sc4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bus Vehicle\",\"col\":3}},{\"id\":\"sp1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"nc1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Fleet\",\"col\":3}},{\"id\":\"nc2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Scheduled Trips\",\"col\":3}},{\"id\":\"nc3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Cargo In Transit\",\"col\":3}},{\"id\":\"nc4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Ticket Revenue\",\"col\":3}},{\"id\":\"sp2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ch1\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Ticket Bookings Trend\",\"col\":8}},{\"id\":\"ch2\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Fleet Status Split\",\"col\":4}},{\"id\":\"sp3\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"cd1\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"cd2\",\"type\":\"card\",\"data\":{\"card_name\":\"Trips and Bookings\",\"col\":4}},{\"id\":\"cd3\",\"type\":\"card\",\"data\":{\"card_name\":\"Fleet and Maintenance\",\"col\":4}},{\"id\":\"cd4\",\"type\":\"card\",\"data\":{\"card_name\":\"Tracking\",\"col\":4}},{\"id\":\"cd5\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"cd6\",\"type\":\"card\",\"data\":{\"card_name\":\"Connected Modules\",\"col\":4}}]",
+    "creation": "2026-02-09 00:00:00.000000",
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "for_user": "",
+    "hide_custom": 0,
+    "icon": "car",
+    "idx": 0,
+    "is_hidden": 0,
+    "label": "TMS",
+    "links": [
+          {"hidden": 0, "is_query_report": 0, "label": "Masters", "link_count": 0, "onboard": 0, "type": "Card Break"},
+          {"hidden": 0, "is_query_report": 0, "label": "Bus Station", "link_count": 0, "link_to": "Bus Station", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Bus Route", "link_count": 0, "link_to": "Bus Route", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Bus Vehicle", "link_count": 0, "link_to": "Bus Vehicle", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Seat Layout", "link_count": 0, "link_to": "Seat Layout", "link_type": "DocType", "onboard": 0, "type": "Link"},
+
+          {"hidden": 0, "is_query_report": 0, "label": "Trips and Bookings", "link_count": 0, "onboard": 0, "type": "Card Break"},
+          {"hidden": 0, "is_query_report": 0, "label": "Bus Trip", "link_count": 0, "link_to": "Bus Trip", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Bus Ticket Booking", "link_count": 0, "link_to": "Bus Ticket Booking", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Cargo Booking", "link_count": 0, "link_to": "Cargo Booking", "link_type": "DocType", "onboard": 0, "type": "Link"},
+
+          {"hidden": 0, "is_query_report": 0, "label": "Fleet and Maintenance", "link_count": 0, "onboard": 0, "type": "Card Break"},
+          {"hidden": 0, "is_query_report": 0, "label": "Fuel Log", "link_count": 0, "link_to": "Fuel Log", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Vehicle Maintenance Log", "link_count": 0, "link_to": "Vehicle Maintenance Log", "link_type": "DocType", "onboard": 0, "type": "Link"},
+
+          {"hidden": 0, "is_query_report": 0, "label": "Tracking", "link_count": 0, "onboard": 0, "type": "Card Break"},
+          {"hidden": 0, "is_query_report": 0, "label": "Bus Live Tracking", "link_count": 0, "link_to": "Bus Live Tracking", "link_type": "DocType", "onboard": 0, "type": "Link"},
+
+          {"hidden": 0, "is_query_report": 1, "label": "Reports", "link_count": 0, "onboard": 0, "type": "Card Break"},
+          {"hidden": 0, "is_query_report": 1, "label": "Bus Ticket Booking Summary", "link_count": 0, "link_to": "Bus Ticket Booking Summary", "link_type": "Report", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 1, "label": "Bus Occupancy Rate Report", "link_count": 0, "link_to": "Bus Occupancy Rate Report", "link_type": "Report", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 1, "label": "Route Revenue Summary", "link_count": 0, "link_to": "Route Revenue Summary", "link_type": "Report", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 1, "label": "Cargo Manifest Report", "link_count": 0, "link_to": "Cargo Manifest Report", "link_type": "Report", "onboard": 0, "type": "Link"},
+
+          {"hidden": 0, "is_query_report": 0, "label": "Connected Modules", "link_count": 0, "onboard": 0, "type": "Card Break"},
+          {"hidden": 0, "is_query_report": 0, "label": "Asset (Assets)", "link_count": 0, "link_to": "Asset", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Sales Invoice (Accounts)", "link_count": 0, "link_to": "Sales Invoice", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Purchase Invoice (Buying/Accounts)", "link_count": 0, "link_to": "Purchase Invoice", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Item (Stock/Assets)", "link_count": 0, "link_to": "Item", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Customer (Selling)", "link_count": 0, "link_to": "Customer", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Supplier (Buying)", "link_count": 0, "link_to": "Supplier", "link_type": "DocType", "onboard": 0, "type": "Link"},
+          {"hidden": 0, "is_query_report": 0, "label": "Employee (HR & Payroll)", "link_count": 0, "link_to": "Employee", "link_type": "DocType", "onboard": 0, "type": "Link"}
+    ],
+    "modified": "2026-09-07 00:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "TMS",
+    "name": "TMS",
+    "number_cards": [
+          {"number_card_name": "Active Fleet"},
+          {"number_card_name": "Scheduled Trips"},
+          {"number_card_name": "Cargo In Transit"},
+          {"number_card_name": "Total Ticket Revenue"}
+    ],
+    "owner": "Administrator",
+    "parent_page": "",
+    "public": 1,
+    "quick_lists": [],
+    "restrict_to_domain": "",
+    "roles": [],
+    "sequence_id": 1.0,
+    "shortcuts": [
+          {"color": "Grey", "doc_view": "", "label": "Bus Ticket Booking", "link_to": "Bus Ticket Booking", "stats_filter": "{}", "type": "DocType"},
+          {"color": "Grey", "doc_view": "", "label": "Cargo Booking", "link_to": "Cargo Booking", "stats_filter": "{}", "type": "DocType"},
+          {"color": "Grey", "doc_view": "", "label": "Bus Trip", "link_to": "Bus Trip", "stats_filter": "{}", "type": "DocType"},
+          {"color": "Grey", "doc_view": "", "label": "Bus Vehicle", "link_to": "Bus Vehicle", "stats_filter": "{}", "type": "DocType"}
+    ],
+    "title": "TMS"
+}
