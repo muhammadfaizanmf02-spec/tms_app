@@ -14,7 +14,11 @@
           "arrival_time",
           "available_seats",
           "fare",
-          "status"
+          "status",
+          "section_break_staff",
+          "driver",
+          "column_break_staff2",
+          "conductor"
     ],
     "fields": [
           {"fieldname": "route", "fieldtype": "Link", "options": "Bus Route", "label": "Route", "reqd": 1, "in_list_view": 1},
@@ -25,7 +29,11 @@
           {"fieldname": "arrival_time", "fieldtype": "Time", "label": "Arrival Time"},
           {"fieldname": "available_seats", "fieldtype": "Int", "label": "Available Seats"},
           {"fieldname": "fare", "fieldtype": "Currency", "label": "Fare", "in_list_view": 1},
-          {"fieldname": "status", "fieldtype": "Select", "options": "Scheduled\nDeparted\nCompleted\nCancelled", "default": "Scheduled", "label": "Status", "in_list_view": 1}
+          {"fieldname": "status", "fieldtype": "Select", "options": "Scheduled\nDeparted\nCompleted\nCancelled", "default": "Scheduled", "label": "Status", "in_list_view": 1},
+          {"fieldname": "section_break_staff", "fieldtype": "Section Break", "label": "Staff"},
+          {"fieldname": "driver", "fieldtype": "Link", "options": "Employee", "label": "Driver", "description": "Links to HR & Payroll - trip allowance/duty data can be pulled from here."},
+          {"fieldname": "column_break_staff2", "fieldtype": "Column Break"},
+          {"fieldname": "conductor", "fieldtype": "Link", "options": "Employee", "label": "Conductor"}
     ],
     "index_web_pages_for_search": 1,
     "links": [],
